@@ -1,5 +1,5 @@
 html {
-    font-family: 'Roboto', sans-serif, serif;
+    font-family: 'Crimson Text', sans-serif, serif;
 }
 
 body {
@@ -8,13 +8,14 @@ body {
 }
 
 h1 {
-    font-family: 'Quicksand', sans-serif, serif;
+    font-family: 'Averia Gruesa Libre', sans-serif, serif;
 /*    letter-spacing: 0.33em;*/
 }
 
 h2 {
 /*    letter-spacing: 0.25em;*/
-    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif, serif;
+/*    text-transform: uppercase;*/
 
 }
 
