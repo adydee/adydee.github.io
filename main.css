@@ -1,9 +1,8 @@
 body {
-    font-family: sans-serif;
-    background-color: azure;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin-top: 50px;
-    padding: 30px;
+    padding: 20px;
 }
 
 header {
@@ -28,12 +27,15 @@ header p {
 }
 
 header li {
-    margin: 20px;
+    margin: 0.5em;
 }
 
 header li a {
-    color: black;
     text-decoration: none;
+}
+
+a:hover {
+    color: #2e4a75;
 }
 
 section {
@@ -45,35 +47,17 @@ section {
 }
 
 #home {
-    height:100vh;
-    background-image: url('images/grandcanyon.jpg');
-    background-size:cover;
     justify-content: flex-end;
     text-align: right;
-    padding-right: 30px;
 }
 
-#home h1 {
+h1 {
     color: white;
 }
 
-#home h2 {
-    color: white;
-}
-
-#about .about-img {
-    width: 300px;
-}
-
-.about-inner {
-    display: flex;
-    align-items: flex-start;
-}
-
-.about-inner .content {
-    flex: 1;
-    padding: 10px;
-    text-align: center;
+.highlight {
+    background-color: black;
+    padding: 0.1em 0.2em;
 }
 
 .ref {
@@ -83,32 +67,31 @@ section {
 
 .cards {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    padding: 0.5em;
-    flex: 0 1 32%;
-    margin: .25em;
+    padding: 0.25em;
+    flex: 1 0 1;
 }
-
-.card .content {
-    flex: 1 1 0;
-}
-
 
 .social-icons {
     font-size: 36px;
     cursor: pointer;
 }
-.fa-envelope:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-researchgate:hover {
-    color: #008000;
+
+.fa-square-envelope:hover,.fa-square-instagram:hover,.fa-square-twitter:hover,.fa-linkedin:hover, .fa-researchgate:hover {
+    color: #2e4a75;
 }
 
 footer {
     text-align: center;
 }
 
+image {
+    border-radius: 5px 5px 0 0;
+}
