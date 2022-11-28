@@ -38,6 +38,10 @@ a:hover {
     color: #2e4a75;
 }
 
+a:visited {
+    color: blue;
+}
+
 section {
     display: flex;
     justify-content: center;
