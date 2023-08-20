@@ -88,10 +88,6 @@ h1 {
     cursor: pointer;
 }
 
-.fa-square-envelope:hover,.fa-square-instagram:hover,.fa-square-twitter:hover,.fa-linkedin:hover, .fa-researchgate:hover {
-    color: #2e4a75;
-}
-
 footer {
     text-align: center;
 }
